@@ -32,21 +32,9 @@ details summary{
 fieldset:last-child{
     text-align: center;
 }
+
+
+
 button{
     display:inline;
 }
-
-
-.form-inline {
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-
-}
-
-.d-flex {
-    display: flex;
-    width: 100%;
-    justify-content: start;
-}
-
