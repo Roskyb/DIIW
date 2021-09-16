@@ -45,8 +45,8 @@ div.dos {
   color: red;
 }
 
-div.dos :nth-child(2) li:nth-child(3){
-  background-color: lightsteelblue !important;
+div.dos :nth-child(2) > ::marker{
+  background-color: lightsteelblue ;
 
 }
 

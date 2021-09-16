@@ -1,0 +1,36 @@
+h1 {
+    color:teal;
+}
+
+
+p strong {
+    font-weight: 700;
+    color: red;
+}
+
+h2 {
+    color:blue;
+}
+
+
+
+p  a  {
+    color: red;
+}
+
+p a em {
+    color: blue;
+}
+
+.adicional p  {
+    color: olive;
+}
+
+.adicional p span  , .adicional p a{
+    color: green;
+}
+
+.adicional p span.especial {
+    color: purple;
+}
+

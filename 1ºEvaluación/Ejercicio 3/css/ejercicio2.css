@@ -1,0 +1,26 @@
+h1, h2 , h3 {
+    color: rgba(128, 128, 128, 0.685);
+}
+
+p strong{
+    color:blue;
+}
+
+p span {
+    color: green;
+}
+
+p em {
+    color: yellow;
+    font-style: italic;
+}
+
+p {
+    color: red;
+}
+
+
+p:nth-of-type(4) {
+    color: blue;
+}
+

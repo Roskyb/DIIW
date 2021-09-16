@@ -1,0 +1,18 @@
+h1 span {
+    color: blue;
+}
+
+p strong {
+    font-weight:700;
+}
+
+p span {
+    color: green;
+}
+
+p em {
+    text-decoration: underline;
+    color: green;
+}
+
+p strong > span:last-child {color: red}

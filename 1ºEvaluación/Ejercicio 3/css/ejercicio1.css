@@ -1,0 +1,21 @@
+P {
+    color: red;
+}
+
+p strong {
+    color: blue;
+}
+
+p span {
+    color: green;
+}
+
+p em {
+    color: yellow;
+    font-style: italic;
+}
+
+p del {
+    color: yellow;
+    text-decoration: line-through;
+}
