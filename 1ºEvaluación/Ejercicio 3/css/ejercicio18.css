@@ -1,0 +1,29 @@
+h1 {
+    text-shadow: -5px -6px 2px gainsboro;
+    text-align: center;
+}
+
+.caja1, .caja2, .caja3 {
+    background-color: gainsboro;
+    margin-bottom: 1rem;
+}
+
+div::first-letter {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.caja1 {
+    border: 20px solid transparent;
+    border-image: url('../imagenes/bordes.png') 33% stretch;
+}
+
+.caja2 {
+    border: 20px solid transparent;
+    border-image: url('../imagenes/bordes.png') 33% space;
+}
+
+.caja3 {
+    border: 20px solid transparent;
+    border-image: url('../imagenes/bordes.png') 33% round;
+}

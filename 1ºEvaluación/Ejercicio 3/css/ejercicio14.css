@@ -1,0 +1,33 @@
+
+div:first-of-type {
+    background-color: lightblue;
+}
+
+
+div.margenes {
+    background-color: lightblue;
+    margin: 12px 60px 30px 10px;
+}
+
+
+.margin1 {
+    background-color: pink;
+    margin: 50px;
+}
+
+.margin2 {
+    background-color: lightgreen;
+    margin: 40px 10px 30px;
+}   
+
+
+.margin3 {
+    background-color: lightcyan;
+    margin: 40px 10px 15px;
+}   
+
+
+.margin4 {
+    background-color: lightgrey;
+    margin: 20px 55px 5px 60px;
+}   

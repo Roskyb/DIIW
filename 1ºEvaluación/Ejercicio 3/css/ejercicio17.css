@@ -1,0 +1,27 @@
+p {
+    width: 450px;
+    height: 120px;  
+    padding: 20px;
+}
+
+.primero {
+    border: 4px solid red;
+    border-right: none;
+    margin-left: 30px;
+    background-color: blue;
+}
+
+
+.segundo {
+    border: 8px double green;
+    margin-top: 40px;
+    background-color: red;
+}
+
+.tercero {
+    border: 12px dotted blue;
+    border-bottom: none;
+    margin-left: 60px;
+    background-color: green;
+}
+

@@ -1,0 +1,23 @@
+.recuadro1,
+.recuadro2,
+.recuadro3 {
+	display: inline-block;
+	width: 32%;
+	background: url('../imagenes/casa.png') no-repeat yellow;
+	padding: 3rem;
+	border: .5rem beige solid;
+}
+
+.recuadro1 {
+	background-origin: border-box;
+}
+
+
+.recuadro2 {
+	background-origin: padding-box;
+}
+
+
+.recuadro3 {
+	background-origin: content-box;
+}

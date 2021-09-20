@@ -1,0 +1,7 @@
+.recuadro1 {
+    column-count: 3;
+    background-color: gainsboro;
+    border-radius: 2rem;
+    padding: 1rem;
+
+}

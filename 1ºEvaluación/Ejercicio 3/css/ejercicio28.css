@@ -1,53 +1,170 @@
 /* ===============================================================
 No modificar estos estilos
 ================================================================== */
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-li { 
-    list-style: none; 
+
+li {
+    list-style: none;
 }
+
 body {
     margin: 0 auto;
     max-width: 900px;
     width: 90%;
 }
-header, nav, aside, footer, section, .contenedor {
+
+header,
+nav,
+aside,
+footer,
+section,
+.contenedor {
     border: 2px solid #777;
 }
-header{
-    display:flex;
+
+header {
+    display: flex;
     justify-content: space-between;
 }
-main{
-    display:flex;
+
+main {
+    display: flex;
 }
-.lateral1 { 
-    width: 20%; 
+
+.lateral1 {
+    width: 20%;
 }
-.contenedor { 
-    display:flex;
-    width: 80%; 
+
+.contenedor {
+    display: flex;
+    width: 80%;
 }
-section { 
-    width: 80%; 
+
+section {
+    width: 80%;
 }
-.lateral2 { 
-    width: 20%; 
+
+.lateral2 {
+    width: 20%;
 }
-footer{
-    display:flex;
+
+footer {
+    display: flex;
     justify-content: space-between;
 }
-nav li { 
-    display: inline; 
+
+nav li {
+    display: inline;
 }
-section article img { 
-    float: left; 
+
+section article img {
+    float: left;
     width: 100px;
 }
+
 /* ================================================================
 Añade tus estilos aqui
 ================================================================== */
+
+header {
+    padding: 1em;
+}
+
+nav {
+    padding: .5em;
+    margin-bottom: .5em;
+}
+
+footer {
+    padding: .5em;
+}
+
+.noticias,
+.publicidad,
+article {
+    padding: .5em;
+}
+
+article,
+.noticias {
+    margin-bottom: 1em;
+}
+
+img {
+    margin: .5em;
+}
+
+
+footer {
+    margin-top: 1em;
+}
+
+.publicidad p {
+    margin-top: 1em;
+}
+
+label[for=buscar] {
+    margin-right: 1em;
+}
+
+
+/* PARTE 2 */
+header,
+nav,
+aside,
+footer,
+section,
+.contenedor {
+    border: none;
+}
+
+nav {
+    border-bottom: 1px solid #004C99 ;
+}
+
+
+
+.noticias {
+    border: 1px solid #C5C5C5;
+}
+
+.publicidad {
+    border: 1px dashed #CC6600;
+}
+
+.lateral2 {
+    border: 1px solid #CC6600;
+}
+
+footer {
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+
+/* PARTE 3  */
+
+.noticias, footer {
+ background-color: #CCCCCC;   
+}
+
+.publicidad {
+    background-color: #FFFF33;
+}
+
+.lateral2 h2 {
+    padding: .2em;
+    background-color: #DB905C;
+}
+
+header h1 {
+    background: url('../imagenes/logo1.png') no-repeat center;
+    color: transparent;
+}
+
+
+

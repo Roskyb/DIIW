@@ -1,0 +1,12 @@
+
+
+.cuadro1 {
+	width: 600px;
+	height: 600px;
+	background: 
+	url('../imagenes/logo1.png') no-repeat top left ,
+	url('../imagenes/logo1.png') no-repeat center,
+	url('../imagenes/madera1.png');
+	background-color: indianred;
+	background-size: 100px 100px, auto, auto;
+}

@@ -1,0 +1,18 @@
+.bordes{
+    background-color: lightcyan;
+    border-top: 4px solid blue;
+    border-right: 1px dashed red;
+    border-bottom: 3px dotted green;
+    border-left: 3px groove yellow;
+}
+
+
+.bordes1, .bordes2, .bordes3, .bordes4{
+    background-color: lightcyan;
+    border-top: 4px solid blue;
+    border-right: 1px dashed red;
+    border-bottom: 3px dotted green;
+    border-left: 3px groove yellow;
+}
+
+

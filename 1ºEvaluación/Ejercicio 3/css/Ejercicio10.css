@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Nikonne";
+    src: url("./fonts/Niconne-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recuadro1,
+.recuadro2 {
+    width: 50%;
+    display: block;
+    background-color: gainsboro;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: red;
+}
+
+
+.recuadro1 h1,
+.recuadro2 h1 {
+    font-size: 5rem;
+    
+}
+
+.recuadro1 {
+    font-family: 'Nikonne';
+}
+
+.recuadro2 {
+    font-family: 'Barrio';
+}
+
+.recuadro1 p {
+    font-size: 2rem;
+}
+
+.recuadro2 p {
+    font-size: 2rem;
+}
