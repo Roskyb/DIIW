@@ -1,3 +1,13 @@
+/* PARTE 4 GLOBAL */
+
+*  {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
+
+}
+
 /* ===============================================================
 No modificar estos estilos
 ================================================================== */
@@ -164,6 +174,59 @@ footer {
 header h1 {
     background: url('../imagenes/logo1.png') no-repeat center;
     color: transparent;
+}
+
+
+
+/* PARTE 4 */
+
+section article h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: .3em;
+
+}
+
+nav li {
+    margin-right: 1em;
+
+}
+
+nav li a {
+    color: white;
+    font-size: 1.3em;
+}
+
+.lateral1 > * {
+    font-size: .9em;
+}
+
+.noticias span.fecha {
+    display: block;
+    width: 100%;
+    color: #999;
+    text-align: right;
+}
+
+.noticias h2 {
+    color: #003366;
+}
+
+.publicidad p {
+    color: #555;
+}
+
+.publicidad a {
+    color: #CC6600;
+}
+
+section article a {
+    color: #CC6600;
+}
+
+section article p {
+    margin: .3em 0;
 }
 
 
