@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Ejercicio 6</title>
+	<link rel="stylesheet" type="text/css" href="css/ejercicio10.css" />
+	<meta charset="UTF-8" />
+	<style>
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.container {
+			background-color: lightcyan;
+			width: 620px;
+			height: 600px;
+			margin: 0 auto;
+			margin-top: 50px;
+			position: relative;
+		}
+
+		.css {
+			width: 350px;
+			background: lightgrey;
+			font-family: 'Algerian';
+			font-size: 200px;
+			color: blue;
+			position: absolute;
+			top: 250px;
+			left: 120px;
+			z-index: 7;
+		}
+
+		.efectos {
+			position: absolute;
+			font: 'Arial';
+			font-size: 70px;
+			color: #ff00ff;
+			top: 230px;
+			left: 40px;
+			z-index: 77;
+		}
+
+		.hojas {
+			position: absolute;
+
+			font: 'Arial' ;
+			font-size:  90px;
+			color: red;
+			top: 255px;
+			left: 40px;
+			z-index: 777;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>POSICIONAMIENTO <span class="resalto">Relativo</span></h1>
+
+	<div class="container">
+		<div class="css">
+			CSS
+		</div>
+		<div class="efectos">
+			efectos en capas
+		</div>
+		<div class="hojas">hojas de estilo</div>
+	</div>
+</body>
+
+</html>
