@@ -229,5 +229,80 @@ section article p {
     margin: .3em 0;
 }
 
+section article h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+.lateral1 p {
+    font-size: 0.9em;
+}
+
+.noticias .fecha {
+    width: 100%;
+    color: #999;
+}
+
+.noticias h2 {
+    color: #003366;
+}
+
+.publicidad p {
+    color: #555;
+}
+
+.publicidad a {
+    color: #CC6600;
+}
+
+section a {
+    color: CC6600;
+}
+
+section p {
+    margin-block: 0.3em;
+}
+
+.lateral2 h2 {
+    color: #FFF;
+    font-size: 1em;
+}
+
+footer p {
+    color: #555;
+    font-size: 0.75em;
+}
+
+section article p {
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+section article h2 {
+    word-spacing: .3em;
+}
+
+ul.menu_principal a{
+    letter-spacing: .3em;
+}
+
+ul.menu_principal { 
+    background-color: darkblue;
+}
+
+
+
+
+
+
 
 
