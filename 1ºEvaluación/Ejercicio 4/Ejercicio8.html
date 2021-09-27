@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Ejercicio 6</title>
+	<link rel="stylesheet" type="text/css" href="css/ejercicio10.css" />
+	<meta charset="UTF-8" />
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.container {
+			margin: .2rem;
+			padding: .2em;
+			background-color: beige;
+			text-align: center;
+
+		}
+
+		.caja {
+			width: 10%;
+			padding: .4rem;
+			margin: .3rem;
+			margin: 0 auto;
+
+		}
+
+		.caja2 {
+			display: inline;
+			color: white;
+		}
+
+		.caja3 {
+			padding: .4rem;
+			display: inline-block;
+			color: white;
+			margin: 1rem;
+		}
+
+
+
+		.rosa {
+			background-color: pink;
+		}
+
+		.verde {
+			background-color: rgb(105, 196, 105);
+		}
+
+		.azul {
+			background-color: teal;
+
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<h1>DIVS CON DISPLAY: BLOCK (VALOR POR DEFECTO PARA LOS DIVS)</h1>
+		<div class="container">
+			<div class="caja verde">Caja1 display: <strong>block</strong></div>
+			<div class="caja verde">Caja2 display: <strong>block</strong></div>
+			<div class="caja verde">Caja3 display: <strong>block</strong></div>
+		</div>
+	</section>
+	<section>
+
+		<h1>Divs con display: inline-block (todos los div en linea)</h1>
+		<div class="container">
+			<div class="caja2 azul">Caja1 display: <strong>inline</strong></div>
+			<div class="caja2 azul">Caja2 display: <strong>inline</strong></div>
+			<div class="caja2 azul">Caja3 display: <strong>inline</strong></div>
+		</div>
+	</section>
+
+	<section>
+
+		<h1>Divs con display: inline-block (todos los div en linea, el ancho y alto se mantiene el ancho y el alto)</h1>
+		<div class="container">
+			<div class="caja3 rosa">Caja1 display: <strong>inline-block</strong></div>
+			<div class="caja3 rosa">Caja2 display: <strong>inline-block</strong></div>
+			<div class="caja3 rosa">Caja3 display: <strong>inline-block</strong></div>
+		</div>
+	</section>
+</body>
+
+</html>

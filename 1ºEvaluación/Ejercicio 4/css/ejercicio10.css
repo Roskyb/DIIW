@@ -1,0 +1,85 @@
+* {
+	font-size: 0.7em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+.cajitaarriba {
+	background: url('../imagenes/arriba.gif') no-repeat center top;
+	border: 2px solid grey;
+	width: 600px;
+	margin: 30px auto;
+}
+
+.cajitaabajo {
+	background: url('../imagenes/abajo.gif') no-repeat bottom left;
+	padding: 58px 75px 58px 69px;
+}
+
+.parrafo1{
+	background: lightblue;
+	line-height: 20px;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.cajita1 {
+	background: #ccf;
+	float: right;
+	margin: 11px;
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+}
+
+.cajita2 {
+	background: #c9f;
+	float: left;
+	margin: 11px;
+	padding: 10px;
+	text-align: center;
+	width: 60px;	
+}
+
+.parrafo2 {
+	background: lightcyan;
+	padding: 10px;
+
+}
+
+.img1 {
+	float: left;
+}
+
+.parrafo3 {
+	background: lime;
+
+}
+
+.parrafo4 {
+	background: yellow;
+}
+
+.img2 {
+	float: right;
+}
+
+.img3 {
+	float: left;
+}
+
+a {
+	clear: both;
+	background: cyan;
+	display: block;
+}
+
+.queascoquedas {
+	clear: both;
+}
+
+

@@ -6,66 +6,108 @@
 	<link rel="stylesheet" type="text/css" href="css/ejercicio10.css" />
 	<meta charset="UTF-8" />
 	<style>
-		h1 {
-			text-align: center;
-			text-transform: uppercase;
-		}
+	* {
 
-		.container {
-			background-color: lightcyan;
-			width: 620px;
-			height: 600px;
-			margin: 0 auto;
-			margin-top: 50px;
-			position: relative;
-		}
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: .8em;
+		color: navy;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 
-		.css {
-			width: 350px;
-			background: lightgrey;
-			font-family: 'Algerian';
-			font-size: 200px;
-			color: blue;
-			position: absolute;
-			top: 250px;
-			left: 120px;
-			z-index: 7;
-		}
+	.padre {
+		background-color: #CCF;
+		border: thin solid #9933ff;
+	}
 
-		.efectos {
-			position: absolute;
-			font: 'Arial';
-			font-size: 70px;
-			color: #ff00ff;
-			top: 230px;
-			left: 40px;
-			z-index: 77;
-		}
+	.capa {
+		background-color: white;
+		text-align: center;
+		padding: 1rem;
+		margin-bottom: 1rem;
+	}
 
-		.hojas {
-			position: absolute;
+	.capahija1 {
+		background-color: #6CF;
+		border: thin solid blue;
+		margin-right: 2rem;
+		margin-left: 2rem;
+		margin-bottom: 2rem;
+		position: relative;
+		padding: 1rem;
+		
+	}
 
-			font: 'Arial' ;
-			font-size:  90px;
-			color: red;
-			top: 255px;
-			left: 40px;
-			z-index: 777;
-		}
+	
+	.capahija2 {
+		background-color: #FCF;
+		border: thin solid purple;
+		width: 60%;
+		display: inline-block;
+		padding: 1rem;
+	
+	}
+
+	.capahija2 img {
+		border: thin tomato solid;
+		width: 15%;
+		display: block;
+
+	}
+
+	
+	.capahija3 {
+		background-color: transparent;
+		border: thin solid blue;
+		position: absolute;
+		bottom: 1rem;
+		right: 1rem;
+
+	}
+
+	
+	.capahija4 {
+		background-color: grey;
+		border: thin solid red;
+		display: inline-block;
+		width: 39.7%;
+		vertical-align:top;
+	}
 	</style>
 </head>
 
 <body>
-	<h1>POSICIONAMIENTO <span class="resalto">Relativo</span></h1>
+	<div class="padre">
+		<p class="capa">
+			&lt;p&gt; Ejercicios con capa 
+		</p>
 
-	<div class="container">
-		<div class="css">
-			CSS
+		<div class="capahija1">
+			&lt;div&gt; Capa hija 1 
+			<p class="capa azul">
+				&lt;p&gt; Ejercicios con capa azul
+			</p>
+			<div class="capahija2">
+				&lt;div&gt; Capa hija 2
+				<img src="./imagenes/network.png" alt="">
+			</div>
+			<div class="capahija3">
+				&lt;div&gt; Capa hija 3
+				<p class="capa">esta capa es transparente</p>
+			</div>
+
+			<div class="capahija4">
+				&lt;div&gt; Capa hija 4
+				<p class="capa">Capa con lista</p>
+				<ul>
+					<li>elemento1</li>
+					<li>elemento2</li>
+					<li>elemento3</li>
+					<li>elemento4</li>
+				</ul>
+			</div>
 		</div>
-		<div class="efectos">
-			efectos en capas
-		</div>
-		<div class="hojas">hojas de estilo</div>
 	</div>
 </body>
 
