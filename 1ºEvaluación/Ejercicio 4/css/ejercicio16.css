@@ -1,0 +1,16 @@
+.tablita {
+	display: table;
+	table-layout: fixed;
+}
+
+.cel  {
+	display: table-cell;
+	vertical-align: top;
+	border : 1px solid gray;
+	padding: 1rem;
+}
+
+.cel:first-of-type {
+	width: 100px;
+}
+

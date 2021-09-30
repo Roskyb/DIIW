@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejercicio 12.2</title>
+    <link rel="stylesheet"
+        type="text/css"
+        href="css/ejercicio10.css" />
+    <meta charset="UTF-8" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+
+        .container {
+            display: flex;
+            width: 500px;
+            flex-flow: row wrap;
+            background-color: black;
+            justify-content: flex-end;
+            margin: 1rem;
+            padding: 1rem;
+            height: 240px;
+            gap: .2rem;
+        }
+        .box {
+            align-self: flex-start;
+            background-color: #555;
+            color: white;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+  
+        }
+
+        .b1 {
+            order: 2;
+            
+        }
+
+        .b2 {
+            order: 3;
+        }
+
+        .b3 {
+            order: 4;
+        }
+
+        .b4 {
+            margin-left: 100%;
+            flex: 0 0 40%;
+            order: 1;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+        <div class="box b3">3</div>
+        <div class="box b4">4</div>
+    </div>
+</body>
+
+</html>

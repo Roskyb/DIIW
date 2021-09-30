@@ -1,0 +1,14 @@
+.cols {
+	display: flex;
+	gap: 1rem;
+	flex-flow: row nowrap;
+	background: brown;
+	padding: 1rem;
+	height: 500px;
+}
+
+.cols > p {
+	flex: 1 1 33%;
+	padding: .5rem;
+	background-color: peru;
+}

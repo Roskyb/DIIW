@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background: #222;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header img {
+	margin-top: 3rem;
+}
+.cols {
+	display: flex;
+}
+
+h1 {
+	text-align: center;
+}
+
+.cols article:nth-child(1) {
+	background: teal;
+}
+
+.cols article:nth-child(2) {
+	background: thistle;
+}
+
+.cols article:nth-child(3) {
+	background: yellowgreen;
+}
+
+
+
+.cols > article {
+	flex: 0 0 33%;
+	padding: 1rem;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: .5rem;
+}
+
+button {
+	align-self: center;
+	padding: 0.3rem;
+}
+
+
+
+
