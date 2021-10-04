@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	border: thick solid black;
+	padding: 1em;
+}
+
+
+
+body {
+	display: grid;
+	width: 100%;
+	height: 50vh;
+	grid-template-columns: 40% 20% 40%;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	"azul azul azul"
+	"rojo . verde"
+	"rojo amarillo amarillo";
+}
+
+.azul {
+	grid-area: azul;
+	background: blue;
+}
+
+.rojo {
+	background: red;
+	grid-area: rojo;
+}
+
+.verde {
+	background: green;
+	grid-area: verde;
+}
+
+.amarillo {
+	background: yellow;
+	grid-area: amarillo;
+}

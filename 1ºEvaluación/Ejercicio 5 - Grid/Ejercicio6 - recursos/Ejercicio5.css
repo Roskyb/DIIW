@@ -1,0 +1,75 @@
+*{
+	font-family: Bebas Neue;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+	grid-template-areas: 
+	"header header nav"
+	"content content foto";
+	background: #c4e1ff;
+}
+
+
+.grid-item1 {
+	grid-area: nav;
+	display: flex;
+	gap: 1rem;
+	color: black;
+	font-weight: 700;
+	padding: 1rem;
+}
+
+.grid-item1 p {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: .3em;
+}
+
+.grid-item1 p:last-child {
+	background: black;
+	color: white !important;
+	border-radius: .5rem;
+}
+
+.grid-item2 {
+	grid-area: header;
+	display: grid;
+	height: 4rem;
+	justify-content: center;
+	text-align: center;
+	font-weight: 700;
+	row-gap: 1rem;
+}
+
+.grid-item2 h1 {
+	font-size: 3rem;
+}
+
+.grid-item2 p:last-child {
+	background: white;
+	display: block;
+	width: auto;
+	
+	padding: .5rem;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.grid-item3 {
+	grid-area: foto;
+	display: grid;
+	background: url('./img/Aurpegia.jpg') no-repeat;
+}
+.grid-item4 {
+	grid-area: content;
+	display: grid;
+
+}
+
+.grid-item5 {}
+
+

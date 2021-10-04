@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	border: thick solid black;
+	padding: .5em;
+	width: 100px;
+	height: 100px;
+	background-color: #555;
+}
+
+
+
+body {
+	display: grid;
+	height: 70vh;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 5px;
+	justify-items: center;
+	align-items: center;
+}
+
+
+
+.azul {
+	background: blue;
+	align-self: flex-end;
+}
+
