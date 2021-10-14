@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 1rem;
+	background-color: #366;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu>ul {
+	display: flex;
+}
+
+
+ul {
+	list-style: none;
+}
+
+.menu ul>li>a {
+	display: block;
+	width: 162px;
+	margin: 2px;
+
+}
+
+a {
+	background-color: #399;
+	color: white;
+	border: 1px solid white;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu>ul>ul {
+	display: none;
+	visibility: hidden;
+}
