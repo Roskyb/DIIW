@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 8</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		.row {
+			margin: 1rem;
+			display: flex;
+			justify-content: center;
+			gap: 0.5rem;
+		}
+
+		.box {
+			padding: 1rem;
+			border-radius: 2rem;
+			background-color: rgb(155, 155, 155);
+			width: 250px;
+
+		}
+
+		.ease {
+			transition: width 1s ease;
+		}
+		.ease:hover {
+			width: 300px;
+			transition: width 1s ease;
+		}
+
+
+		.linear {
+			transition: width 1s linear;
+		}
+		.linear:hover {
+			width: 300px;
+			transition: width 1s linear;
+		}
+
+		.ease-in {
+			transition: width 2s ease-in;
+		}
+		.ease-in:hover {
+			width: 300px;
+			transition: width 2s ease-in;
+		}
+
+		.ease-out {
+			transition: width 2s ease-out;
+		}
+		.ease-out:hover {
+			width: 300px;
+			transition: width 2s ease-out;
+		}
+		
+
+		.ease-in-out {
+			transition: width 2s ease-in-out;
+		}
+		.ease-in-out:hover {
+			width: 300px;
+			transition: width 2s ease-in-out;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="row">
+		<div class="box ease">
+			<h1>ease</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, aliquid expedita autem et dolorem
+				saepe. Recusandae vero, fuga magnam doloribus eum nesciunt pariatur maxime a possimus omnis eius enim
+				vitae!</p>
+		</div>
+		<div class="box linear">
+			<h1>linear</h1>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio totam cum et tempore, natus quis quo
+				harum est eum excepturi modi aperiam reiciendis dignissimos voluptatum iure qui error blanditiis
+				tempora?</p>
+		</div>
+		<div class="box ease-in">
+			<h1>ease-in</h1>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolorem? Id itaque minima nobis
+				quidem perferendis porro molestiae rerum veniam laborum minus. Ratione, eius dicta. Earum aspernatur
+				magnam fugit laboriosam!</p>
+		</div>
+		<div class="box ease-out">
+			<h1>ease-out</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo deleniti nulla inventore mollitia
+				quibusdam. Vero fuga ab, voluptate, veritatis iure alias cum illo ipsa culpa obcaecati totam impedit
+				quam.</p>
+		</div>
+		<div class="box ease-in-out">
+			<h1>ease-in-out</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptates quas velit similique
+				assumenda est id laborum libero ratione, officia nobis totam in impedit eum molestiae commodi nihil
+				possimus. A?</p>
+		</div>
+	</div>
+</body>
+
+</html>

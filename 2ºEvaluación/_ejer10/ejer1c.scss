@@ -1,0 +1,32 @@
+@mixin content($order, $content, $color, $border: 0) {
+
+	@if $order == prev {
+		::before {
+			content: $content;
+			color: $color;
+			@if $border {
+				border: $border;
+			}
+		}
+	}
+	@else {
+		::after {
+			content: "Soy posterior al bloque 2";
+			color: $color;
+			@if $border {
+				border: $border;
+			}
+		}
+	}
+
+	
+}
+
+.tres {
+	@include content(prev, "Soy anterior al bloque 3", blue)
+
+}
+
+#i1 {
+	@include content(after, "Soy anterior al bloque 3", green, 2);
+}

@@ -1,0 +1,13 @@
+.tres ::before {
+  content: "Soy anterior al bloque 3";
+  color: blue;
+  border: 0;
+}
+
+#i1 ::after {
+  content: "Soy posterior al bloque 2";
+  color: green;
+  border: 2;
+}
+
+/*# sourceMappingURL=ejer1c.css.map */

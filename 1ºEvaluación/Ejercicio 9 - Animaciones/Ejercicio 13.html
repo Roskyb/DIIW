@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 13</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-size: 1rem;
+		}
+		.container {
+			margin-top: 1rem;
+			display: flex;
+			flex-flow: column;
+			gap: 1rem;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+
+		}
+
+		.container:hover .box {
+			transform: rotate(15deg);
+			transition: 2s;
+		}
+
+		.box {
+			background-color: red;
+			color: white;
+			border-radius: 1rem;
+			padding: 0.5rem;
+			width: 300px;
+			transition: 2s;
+		}
+
+		.ease {
+			transition-timing-function: ease;
+		}
+		.linear {
+			transition-timing-function: linear;
+		}
+		.ease-in {
+			transition-timing-function: ease-in;
+		}
+		.ease-out {
+			transition-timing-function: ease-out;
+		}
+		.ease-in-out {
+			transition-timing-function: ease-in-out;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box ease">
+			<h6>Caja 1</h6>
+			<p>transition-timing-function: ease;</p>
+		</div>
+		<div class="box linear">
+			<h6>Caja 2</h6>
+			<p>transition-timing-function: linear;</p>
+		</div>
+		<div class="box ease-in">
+			<h6>Caja 3</h6>
+			<p>transition-timing-function: ease-in;</p>
+		</div>
+		<div class="box ease-out">
+			<h6>Caja 4</h6>
+			<p>transition-timing-function: ease-out;</p>
+		</div>
+		<div class="box ease-in-out">
+			<h6>Caja 5</h6>
+			<p>transition-timing-function: ease-in-out;</p>
+		</div>
+		
+	</div>
+</body>
+</html>

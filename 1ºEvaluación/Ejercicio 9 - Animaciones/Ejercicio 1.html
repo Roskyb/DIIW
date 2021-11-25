@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 7 Animaciones</title>
+	<style>
+
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.row {
+			margin-top: 2rem;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			justify-content: space-evenly;
+		}
+
+		.img-container {
+			border: 1px gray solid;
+			padding: 0.9rem;
+		}
+
+		/* img {
+			width: 120px;
+			height: auto;
+		} */
+
+		h3 {
+			font-size: 0.8rem;
+			font-weight: 400;
+			font-style: italic;
+		}
+
+		.color-rotation-200 {
+			filter: hue-rotate(200);
+		}
+
+		.brillo {
+			filter: brightness(3);
+		}
+
+		.contraste {
+			filter: contrast(10);
+		}
+
+		.saturacion {
+			filter: saturate(10)
+		}
+
+		.invertido {
+			filter: invert(1);
+		}
+
+		.gray-scale-1 {
+			filter: grayscale(1);
+		}
+
+		.sepia {
+			filter: sepia(1);
+		}
+
+
+
+		.desenfocado-4 {
+			filter: blur(4px);
+		}
+
+		.transparency-3 {
+			filter: opacity(.3)
+		}
+
+		video {
+			margin: 2rem;
+			filter: grayscale(10)
+		}
+
+		img:hover {
+			filter: none;
+			transition: filter 1s;
+		}
+
+	</style>
+</head>
+
+<body>
+
+<div class="row">
+	<div class="img-container">
+		<img src="./imagenes/gato.jpg" alt="gato">
+		<h3>original</h3>
+	</div>
+	<div class="img-container">
+		<img class="color-rotation-200" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Color Rotation 200º </h3>
+	</div>
+	<div class="img-container">
+		<img class="saturacion" class="brillo" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Saturacion</h3>
+	</div>
+	<div class="img-container">
+		<img class="contraste" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Contraste</h3>
+	</div>
+	<div class="img-container">
+		<img class="invertido" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Invertido</h3>
+	</div>
+	<div class="img-container">
+		<img class="gray-scale-1" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Escala gris 1</h3>
+	</div>
+	<div class="img-container">
+		<img class="sepia" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Sepia 1</h3>
+	</div>
+	<div class="img-container">
+		<img class="desenfocado-4" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Desenfocado 4px</h3>
+	</div>
+	<div class="img-container">
+		<img class="transparency-3" src="./imagenes/gato.jpg" alt="gato">
+		<h3>Trasnparecia</h3>
+	</div>
+</div>
+	
+	
+	<video src="./multimedia/ejercicio1.mp4" autoplay>
+	</video>
+</body>
+
+</html>

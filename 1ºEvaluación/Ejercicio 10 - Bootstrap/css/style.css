@@ -1,0 +1,25 @@
+.navbar {
+	background-color: #094D4F;
+}
+
+.navbar li a {
+	color: white !important;
+	font-weight: 500;
+}
+
+.navbar .navbar-brand img {
+	width: 100px;
+}
+
+#lupa  {
+	background: none ;
+	border: none;
+	color: white;
+}
+
+.navbar li.active a {
+	background: none !important;
+	width: auto;
+	color: #3FC0C5;
+	border-bottom: 3px solid #3FC0C5;
+}
